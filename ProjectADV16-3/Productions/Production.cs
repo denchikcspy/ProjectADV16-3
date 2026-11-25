@@ -30,6 +30,12 @@ namespace ProjectADV16_3.Productions
             }
         }
 
+        protected void AddRecipe(Recipe recipe)
+        {
+            RecipeList.Add(recipe);
+        }
+
+
         public abstract void Produce();
     }
 }
