@@ -4,7 +4,16 @@ using System.Text;
 
 namespace ProjectADV16_3.Productions
 {
-    internal class PowerPlant
+    public class PowerPlant : Production
     {
+        public PowerPlant(int id, string name, double efficiency = 100.0)
+            : base(id, name, efficiency)
+        {
+        }
+
+        public override void Produce()
+        {
+            
+        }
     }
 }
