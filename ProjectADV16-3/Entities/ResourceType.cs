@@ -2,9 +2,19 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProjectADV16_3.Productions.Entities
+namespace ProjectADV16_3.Entities
 {
-    internal class ResourceType
+    public enum ResourceType
     {
+        Electricity,
+        Coal,
+        IronOre,
+        Iron,
+        Copper,
+        Lead,
+        Oil,
+        Fuel,
+        Plastic,
+        Kettle
     }
 }
